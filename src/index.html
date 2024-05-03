@@ -9,8 +9,8 @@
       href="./output.css"
       rel="stylesheet" />
   </head>
-  <body>
-    <div class="grid grid-cols-2 justify-between py-10 px-20">
+  <body class="bg-slate-300">
+    <div class="grid grid-cols-2 justify-between py-10 px-20 bg-white">
       <div>
         <img
           src="https://www.gold.ac.uk/assets/img/svg/sprite/logo.svg"
@@ -40,18 +40,20 @@
       </div>
     </div>
     <div class="grid grid-cols-4">
-      <div class="col-span-2">
+      <div class="col-span-2 relative">
         <img
           src="https://www.gold.ac.uk/media/images-by-section/life-on-campus/Students-outside-the-CCA_19427-(1).jpg"
-          alt="" />
-        <div class="flex flex-col gap-4">
+          alt=""
+          class="w-full" />
+        <div
+          class="absolute inset-0 flex flex-col gap-4 p-9 bg-white mx-2 z-20 mt-40">
           <h1>Lorem, ipsum dolor.</h1>
           <p>
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestias
             aspernatur recusandae tenetur aliquid aliquam impedit, consequuntur
             quas. Distinctio, nemo veritatis?
           </p>
-          <div class="border-t-2">
+          <div class="border-t-2 flex">
             <button class="text-red-500">Lorem ipsum dolor sit.</button>
             <p>--</p>
           </div>
